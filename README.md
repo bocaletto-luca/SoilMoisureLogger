@@ -64,8 +64,16 @@ An autonomous data‐logger that measures soil moisture with a capacitive sensor
    - **RTClib** by Adafruit  
    - **SD** (built-in)  
 3. Create folder `SoilMoistureLogger` and save both files.  
-4. Open `SoilMoistureLogger.ino` in the IDE.  
-5. Select **Arduino Uno** and the correct COM port.
+4. Open `SoilMoistureLogger.ino` in the IDE.
+5. The logger writes `soil_log.csv` on the SD root with columns: timestamp,moisture 2025-06-20 14:00:00,412
+6. Automatic readings every 10 minutes; press the button to force a manual reading.  
+7. LED blinks once on each log.
+
+---
+
+Say **continua** when you’re ready for project #9!  
+
+6. Select **Arduino Uno** and the correct COM port.
 
 ## 5. Usage  
 1. Format your SD card as FAT32.  
