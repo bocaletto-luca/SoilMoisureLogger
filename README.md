@@ -1,4 +1,5 @@
 # Soil Moisture Logger with RTC & SD Card
+#### Author: Bocaletto Luca
 
 **Files**  
 - `README.md`  
